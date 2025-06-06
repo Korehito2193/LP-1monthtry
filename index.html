@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ヶ月コミットプログラム - 写真撮影会参加者限定特価</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+            line-height: 1.6;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .price-circle {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            box-shadow: 0 10px 25px rgba(238, 90, 82, 0.3);
+        }
+        .feature-card {
+            transition: transform 0.3s ease;
+            border-left: 4px solid #667eea;
+        }
+        .feature-card:hover {
+            transform: translateY(-2px);
+        }
+        .cta-button {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(238, 90, 82, 0.4);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(238, 90, 82, 0.6);
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="bg-yellow-400 text-black text-sm font-bold py-2 px-4 rounded-full inline-block mb-4">
+                <span class="emoji">📸</span> 写真撮影会参加者限定
+            </div>
+            <h1 class="text-2xl md:text-3xl font-bold mb-4">
+                <span class="emoji">✅</span> 1ヶ月コミットプログラム
+            </h1>
+            <div class="flex flex-col items-center space-y-3">
+                <div class="text-gray-200 line-through text-lg">
+                    通常価格 5,000円
+                </div>
+                <div class="price-circle text-white p-6 rounded-full">
+                    <div class="text-3xl font-bold">1,980円</div>
+                    <div class="text-sm">(税込)</div>
+                </div>
+                <div class="text-yellow-300 font-bold text-lg">
+                    <span class="emoji">🔥</span> 60%OFF の特別価格！
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        
+        <!-- Program Contents -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">
+                <span class="emoji">📦</span> プログラム内容
+            </h2>
+            
+            <div class="space-y-6">
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-2xl">💬</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2">日報グループ参加</h3>
+                            <p class="text-gray-600">一緒に頑張る仲間と、毎日の行動を記録＆報告！モチベ継続！</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-2xl">🧑‍💻</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2">個別MTG（全3回）</h3>
+                            <p class="text-gray-600 mb-3">あなただけの進め方を一緒に考えます。</p>
+                            <ul class="text-sm text-gray-500 space-y-1">
+                                <li>• 1回目：目標設計</li>
+                                <li>• 2回目：中間レビュー</li>
+                                <li>• 3回目：総まとめ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-2xl">📱</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2">マッチングアプリ3つ 登録サポート</h3>
+                            <p class="text-gray-600">あなたに合うアプリを選定し、登録〜初期設定まで丁寧にガイド。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <div class="text-2xl">📘</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-2">¥5,000相当のnote教材プレゼント</h3>
+                            <p class="text-gray-600">アプリで出会うための「実践ガイドブック」を無料で進呈。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Purpose -->
+        <section class="mb-12 bg-blue-50 p-6 rounded-lg">
+            <h2 class="text-2xl font-bold text-center mb-6 text-gray-800">
+                <span class="emoji">🎯</span> このプログラムの目的
+            </h2>
+            <div class="space-y-4 text-gray-700">
+                <div class="flex items-start space-x-3">
+                    <div class="text-blue-500 mt-1">•</div>
+                    <p>「1ヶ月、まずはやってみる」ことで、"継続の力"を体験してもらう</p>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="text-blue-500 mt-1">•</div>
+                    <p>自力ではつまづきやすいポイントに早めに気づき、次の一手が打てる</p>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="text-blue-500 mt-1">•</div>
+                    <p>あなたが「一人で頑張らなくていい」と感じられるようサポート</p>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="text-blue-500 mt-1">•</div>
+                    <p>僕自身への信頼感・相談しやすさを実感してもらう</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommended For -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">
+                <span class="emoji">🧑‍🎓</span> こんな人におすすめ
+            </h2>
+            <div class="grid gap-4">
+                <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-green-400">
+                    <div class="flex items-center space-x-3">
+                        <div class="text-green-500 text-xl">✓</div>
+                        <p>アプリを始めてみたいけど、1人では不安</p>
+                    </div>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-green-400">
+                    <div class="flex items-center space-x-3">
+                        <div class="text-green-500 text-xl">✓</div>
+                        <p>今までうまくいかなかった…リベンジしたい</p>
+                    </div>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-green-400">
+                    <div class="flex items-center space-x-3">
+                        <div class="text-green-500 text-xl">✓</div>
+                        <p>撮影会の写真、どう活かせばいいかわからない</p>
+                    </div>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border-l-4 border-green-400">
+                    <div class="flex items-center space-x-3">
+                        <div class="text-green-500 text-xl">✓</div>
+                        <p>恋愛のプロから、まずは気軽にアドバイスをもらいたい</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Comparison -->
+        <section class="mb-12 bg-gradient-to-r from-red-50 to-pink-50 p-6 rounded-lg">
+            <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">
+                <span class="emoji">💰</span> 今だけの特別価格
+            </h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-4">
+                    <div>
+                        <div class="text-gray-500 line-through text-lg">通常価格</div>
+                        <div class="text-2xl font-bold text-gray-400">5,000円</div>
+                    </div>
+                    <div class="text-red-500 text-3xl">→</div>
+                    <div>
+                        <div class="text-red-500 font-bold">限定価格</div>
+                        <div class="text-3xl font-bold text-red-500">1,980円</div>
+                        <div class="text-sm text-gray-600">(税込)</div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="bg-red-500 text-white px-4 py-2 rounded-full inline-block font-bold">
+                        3,020円 もお得！
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 space-y-2">
+                <p class="text-sm text-gray-600">※写真撮影会に参加された方限定</p>
+                <p class="text-sm text-red-600 font-bold">※定員に達し次第、予告なく終了します</p>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="text-center mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800">
+                <span class="emoji">✅</span> お申込みはこちらから
+            </h2>
+            <button class="cta-button text-white text-xl font-bold py-4 px-8 rounded-full w-full max-w-md mx-auto block">
+                <span class="emoji">👉</span> 参加申し込みフォームを開く
+            </button>
+            <p class="text-sm text-gray-500 mt-4">
+                クリック・タップで申し込みフォームが開きます
+            </p>
+        </section>
+
+        <!-- Urgency -->
+        <section class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg text-center">
+            <div class="text-yellow-600 font-bold text-lg mb-2">
+                <span class="emoji">⚡</span> 限定価格は今だけ！
+            </div>
+            <p class="text-gray-700">
+                写真撮影会参加者だけの特別価格です。<br>
+                この機会をお見逃しなく！
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">
+                © 2024 マッチングアプリサポート 1ヶ月コミットプログラム
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
